@@ -10,3 +10,7 @@ venv/
 
 # Sistema
 .DS_Store
+
+# Datos de ejercicios
+historial.json
+nota.md

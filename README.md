@@ -13,7 +13,9 @@
 
 | Proyecto | Descripción |
 |---|---|
-| semana1-python | Calculadora, bucles, funciones, archivos |
+| calculadora_1_basica.py | Calculadora con print/input |
+| calculadora_2_intermedia.py | Calculadora con funciones y menú |
+| calculadora_3_avanzada.py | Calculadora con historial en JSON |
 | (próximamente) | API REST con Django, To-Do app |
 
 ## Contacto
