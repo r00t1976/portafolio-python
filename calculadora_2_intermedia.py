@@ -20,6 +20,7 @@ def dividir(a, b):
         return "Error: división por cero"
     return a / b
 
+"""  el menu para una ayuda de  como despalzarce en la calculadora  """
 
 def main():
     while True:
@@ -27,14 +28,13 @@ def main():
         print("1) Sumar  2) Restar  3) Multiplicar  4) Dividir  5) Salir")
         opcion = input("Opción: ")
 
-        if opcion == "5":
-            print("¡Adiós!")
-            break
-
         if opcion not in ("1", "2", "3", "4"):
             print("Opción inválida")
             continue
-
+        
+        if opcion == "5":
+            print("¡Adiós!")
+            break
         try:
             a = float(input("a: "))
             b = float(input("b: "))
