@@ -1,4 +1,4 @@
-"""Calculadora 3 - Avanzada.
+"""Calculadora 3.0 - Avanzada.
 Usa diccionario de funciones, historial de operaciones y archivos.
 """
 
@@ -29,6 +29,7 @@ def dividir(a, b):
 def potencia(a, b):
     return a ** b
 
+""" arriba muestra libreria de historial y funciones de operaciones matematicas  """
 
 OPERACIONES = {
     "+": sumar,
