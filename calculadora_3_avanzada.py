@@ -52,12 +52,13 @@ def guardar_historial(historial):
     with open(HISTORIAL_PATH, "w", encoding="utf-8") as f:
         json.dump(historial, f, indent=2, ensure_ascii=False)
 
+""" cambie y agregue mas personalizacion a la barra de opciones, dando mas  color para distinguir  y mas informacion de como usar la calculadora  """
 
 def main():
     historial = cargar_historial()
-    print("=== Calculadora avanzada ===")
+    print("=============================> Calculadora avanzada <============================")
     print("Operaciones: +  -  *  /  **")
-    print("Escribe 'historial' para ver el historial, 'salir' para terminar.\n")
+    print("Escribe \033[32m'historial\033[0m' para ver el historial, \033[31m'salir\033[0m' para terminar.\n")
 
     while True:
         entrada = input("Ingresa: número1 operación número2 → ").strip()
