@@ -1,4 +1,4 @@
-"""Calculadora 2 - Intermedia.
+"""Calculadora v.2.0 - Intermedia.
 Usa funciones y un menú con bucle while.
 """
 
@@ -23,7 +23,7 @@ def dividir(a, b):
 
 def main():
     while True:
-        print("\n=== Calculadora ===")
+        print("\n=============> Calculadora <===========")
         print("1) Sumar  2) Restar  3) Multiplicar  4) Dividir  5) Salir")
         opcion = input("Opción: ")
 
