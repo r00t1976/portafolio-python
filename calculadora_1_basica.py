@@ -1,4 +1,4 @@
-"""Calculadora 1 - La más básica.
+"""Calculadora v.1.0 - La más básica.
 Usa print/input y variables, sin funciones ni bucles.
 """
 
