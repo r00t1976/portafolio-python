@@ -3,22 +3,22 @@ Usa funciones y un menú con bucle while.
 """
 
 
-def sumar(a, b):
-    return a + b
+def sumar(a,b,c):
+    return a + b + c    
 
 
-def restar(a, b):
-    return a - b
+def restar(a,b,c):
+    return a - b - c
 
 
-def multiplicar(a, b):
-    return a * b
+def multiplicar(a,b,c):
+    return a * b * c
 
 
-def dividir(a, b):
+def dividir(a,b,c):
     if b == 0:
         return "Error: división por cero"
-    return a / b
+    return a / b / c
 
 """  el menu para una ayuda de  como despalzarce en la calculadora  """
 
@@ -28,28 +28,30 @@ def main():
         print("1) Sumar  2) Restar  3) Multiplicar  4) Dividir  5) Salir")
         opcion = input("Opción: ")
 
-        if opcion not in ("1", "2", "3", "4"):
-            print("Opción inválida")
-            continue
-        
         if opcion == "5":
             print("¡Adiós!")
             break
+
+        if opcion not in ("1", "2", "3", "4"):
+            print("Opción inválida")
+            continue
+
         try:
             a = float(input("a: "))
             b = float(input("b: "))
+            c = float(input("c: "))
         except ValueError:
             print("Debes ingresar números")
             continue
 
         if opcion == "1":
-            print("Resultado:", sumar(a, b))
+            print("Resultado:", sumar(a,b, c))
         elif opcion == "2":
-            print("Resultado:", restar(a, b))
+            print("Resultado:", restar(a, b, c))
         elif opcion == "3":
-            print("Resultado:", multiplicar(a, b))
+            print("Resultado:", multiplicar(a, b, c))
         else:
-            print("Resultado:", dividir(a, b))
+            print("Resultado:", dividir(a, b, c))
 
 
 if __name__ == "__main__":
