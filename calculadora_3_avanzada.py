@@ -5,8 +5,11 @@ Usa diccionario de funciones, historial de operaciones y archivos.
 import json
 from datetime import datetime
 
+""" librerias que se usaran para el historial de operaciones y funciones matematicas  """
+
 HISTORIAL_PATH = "historial.json"
 
+""" aca comienzan las funciones que vamos utilizar"""
 
 def sumar(a, b):
     return a + b
