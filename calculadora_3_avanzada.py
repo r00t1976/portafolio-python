@@ -9,7 +9,7 @@ from datetime import datetime
 
 HISTORIAL_PATH = "historial.json"
 
-""" aca comienzan las funciones que vamos utilizar"""
+""" aca comienzan las funciones que vamos utilizar e operadoras matematicos  """
 
 def sumar(a, b):
     return a + b
