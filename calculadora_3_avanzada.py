@@ -5,11 +5,11 @@ Usa diccionario de funciones, historial de operaciones y archivos.
 import json
 from datetime import datetime
 
-""" librerias que se usaran para el historial de operaciones y funciones matematicas  """
+# librerias que se usaran para el historial de operaciones y funciones matematicas  #
 
 HISTORIAL_PATH = "historial.json"
 
-""" aca comienzan las funciones que vamos utilizar e operadoras matematicos  """
+# aca comienzan las funciones que vamos utilizar e operadoras matematicos  #
 
 def sumar(a, b):
     return a + b
@@ -32,7 +32,7 @@ def dividir(a, b):
 def potencia(a, b):
     return a ** b
 
-""" arriba muestra libreria de historial y funciones de operaciones matematicas  """
+# arriba muestra libreria de historial y funciones de operaciones matematicas  #
 
 OPERACIONES = {
     "+": sumar,
@@ -55,7 +55,7 @@ def guardar_historial(historial):
     with open(HISTORIAL_PATH, "w", encoding="utf-8") as f:
         json.dump(historial, f, indent=2, ensure_ascii=False)
 
-""" cambie y agregue mas personalizacion a la barra de opciones, dando mas  color para distinguir  y mas informacion de como usar la calculadora  """
+# cambie y agregue mas personalizacion a la barra de opciones, dando mas  color para distinguir  y mas informacion de como usar la calculadora  #
 
 def main():
     historial = cargar_historial()
