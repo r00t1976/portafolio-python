@@ -16,6 +16,9 @@
 | calculadora_1_basica.py | Calculadora con print/input |
 | calculadora_2_intermedia.py | Calculadora con funciones y menú |
 | calculadora_3_avanzada.py | Calculadora con historial en JSON |
+| dia2_adivina_numero.py | Juego: adivina el número (while, random) |
+| dia2_tabla_multiplicar.py | Tabla de multiplicar (for, range) |
+| dia2_menu_juegos.py | Menú que junta los 2 juegos |
 | (próximamente) | API REST con Django, To-Do app |
 
 ## Contacto
