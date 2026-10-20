@@ -4,7 +4,7 @@ Temas: bucle while, condicionales, modulo random.
 
 import random
 
-
+# funcion principal de este nuevo programa, humilde pero ma a enseñado bastante
 def main():
     numero_secreto = random.randint(1, 100)
     intentos = 0
@@ -21,7 +21,8 @@ def main():
         except ValueError:
             print("Eso no es un numero entero. Intenta de nuevo.")
             intentos -= 1
-            continue
+            break
+# espero que los coemntarios queden bien
 
         if intento < numero_secreto:
             print("Muy bajo, sube!")
