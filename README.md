@@ -19,6 +19,8 @@
 | dia2_adivina_numero.py | Juego: adivina el número (while, random) |
 | dia2_tabla_multiplicar.py | Tabla de multiplicar (for, range) |
 | dia2_menu_juegos.py | Menú que junta los 2 juegos |
+| dia3_agenda_contactos.py | Agenda con funciones, listas y diccionarios |
+| dia3_agenda_mejorada.py | Agenda con validación de duplicados |
 | (próximamente) | API REST con Django, To-Do app |
 
 ## Contacto

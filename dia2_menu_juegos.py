@@ -28,6 +28,7 @@ def adivina_numero():
             print(f"Correcto! Lo adivinaste en {intentos} intentos.")
             return intentos
 
+# tabla de  multiplicar  sencilla y practica
 
 def tabla_multiplicar():
     entrada = input("¿De qué numero? ").strip()
@@ -42,6 +43,7 @@ def tabla_multiplicar():
         print(f"{numero} x {i} = {numero * i}")
     return None
 
+# aca menu de programa
 
 def main():
     while True:
