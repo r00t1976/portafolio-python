@@ -6,6 +6,10 @@ print("=== Calculadora básica ===")
 a = float(input("Primer número: "))
 b = float(input("Segundo número: "))
 
+
+""" hice algunos cambios que creo  se veran mejor """
+
+
 print("Suma:", a + b)
 print("Resta:", a - b)
 print("Multiplicación:", a * b)
